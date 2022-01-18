@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+.block{
+    height:200px;
+}
+
+.orange{
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.green{
+    background-color: green;
+    position: static;
+}
+.purple{
+    background-color: purple;
+    position: fixed;
+    width: 100px;
+    height:100px;
+    /* top, left, right, bottom */
+    right:100px;
+    bottom:100px;
+    border-radius: 50%;
+}
+.pink{
+    background-color: pink;
+    position: absolute;
+    width:100%;
+    top:100px;
+    left: 200px;
+    z-index: 15;
+}
+.blue{
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}
+.hero{
+    background-color: grey;
+    height: 500px;
+}
+.yellow{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 100px;
+    z-index: 100;
+
+}
